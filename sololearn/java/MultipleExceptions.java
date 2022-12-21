@@ -33,17 +33,11 @@ public class Main
 	        2. Error: wrong value type
 	        */
 	        //your code goes here
-			if (){
-				
-			} else {
-				if (num2 = 0){
-
-				}
-			}
-	    } catch(ArithmeticException e1) {
-	        System.out.println("Error: division by zero");
-	    } catch(InputMismatchException e2){
-	        System.out.println("Error: wrong value type");
+			System.out.println(num1/num2);
+	    } catch(ArithmeticException e) {
+	        System.out.println("Mistake: division by zero");
+	    } catch(InputMismatchException e){
+	        System.out.println("Mistake: wrong value type");
 	    }
 	}
 }
