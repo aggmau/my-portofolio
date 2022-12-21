@@ -17,6 +17,7 @@ Sample Output:
 
 The area of the square is 5*5=25, while the area of the circle is PI*2*2=12.566370614359172
 */
+
 import java.util.Scanner;
 
 abstract class Shape {
@@ -26,17 +27,21 @@ abstract class Shape {
 //your code goes here
 
 public class Square extends Shape {
-    int width;
-    public void area(int width){
-        System.out.println(double width*width);
+    public Square(int width) {
+       this.width = width;
+    }
+    public void area(){
+        System.out.println(this.width*this.width);
     }
 }
 
 public class Circle extends Shape {
     double pi = Math.PI;
-    int width;
-    public void area(int width){
-        System.out.println(double pi*width*width);
+    public Circle(int width) {
+       this.width = width;
+    }
+    public void area(){
+        System.out.println(pi*this.width*this.width);
     }
 }
 
