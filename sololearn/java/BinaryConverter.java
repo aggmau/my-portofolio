@@ -28,7 +28,7 @@ public class Converter{
     }
 }
 
-public class Program {
+public class BinaryConverter {
     public static void main(String[ ] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();

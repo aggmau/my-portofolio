@@ -7,7 +7,7 @@ You're given a program which creates Country object and you should output the na
 Task
 Change the access modifiers of the Country class fields in order to perform the required output.
 */
-public class Program
+public class AccessModifiers
 {
 	public static void main(String[] args) {
 	    Country c = new Country();

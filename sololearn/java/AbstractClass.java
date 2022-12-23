@@ -8,7 +8,7 @@ In the play() method Monopoly should print “Buy all property.”, Battleships 
 Complete the code by implementing the getName() and play() methods inherited from abstract Game class.
 */
 
-class Main {
+class AbstractClass {
    public static void main(String[] args) {
        //do not touch this code
        Monopoly monopoly = new Monopoly();

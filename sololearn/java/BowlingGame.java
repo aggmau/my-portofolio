@@ -41,7 +41,7 @@ public class Bowling {
     }
 }
 
-public class Program {
+public class BowlingGame {
     public static void main(String[ ] args) {
         Bowling game = new Bowling();
         Scanner sc = new Scanner(System.in);
